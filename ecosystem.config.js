@@ -28,7 +28,7 @@ module.exports = {
       ref  : "origin/master",
       // "ssh_options": "PasswordAuthentication=no",
       "ssh_options": ["StrictHostKeyChecking=no", "PasswordAuthentication=no"],
-      repo : "git@github.com:sampsonli/xjporxy.git",
+      repo : "git@github.com:sampsonli/xjproxy.git",
       path : "/root/xjproxy",
       "post-deploy" : "npm install && pm2 startOrRestart ecosystem.config.js --env proxy"
     }
