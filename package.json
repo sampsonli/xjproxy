@@ -1,0 +1,14 @@
+{
+  "name": "xjproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mini-proxy": "^1.0.1"
+  }
+}
